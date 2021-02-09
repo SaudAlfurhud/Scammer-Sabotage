@@ -29,7 +29,3 @@ for i in range(1000):
     print("Sending...")
     print(ID, cardNumber, Pin, CCV, accountNumber, phoneNumber, expireDate)
 
-
-#===============================================
-#Work but not gurentee
-#===============================================
