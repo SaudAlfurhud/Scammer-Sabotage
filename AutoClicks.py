@@ -8,7 +8,9 @@ import string
 
 url = "http://107.161.176.122/~sysupdat/updateyourinfo/index.php"
 
-driver=webdriver.Chrome(r'C:\Program Files\webdrivers\chromedriver.exe')
+//replace the path with your if you using Windows 
+and if mac replace is with "webdriver.firefox()" or "webdriver.Chrome()" after install them using " brew install firefoxdriver" and put them in this path "/usr/local/bin/"
+driver=webdriver.Chrome(r'C:\Program Files\webdrivers\chromedriver.exe') 
 driver.get(url)
 
 for i in range(10000):
